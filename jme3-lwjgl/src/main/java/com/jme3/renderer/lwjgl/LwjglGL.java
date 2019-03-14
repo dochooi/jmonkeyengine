@@ -1,5 +1,5 @@
 package com.jme3.renderer.lwjgl;
-
+//Imports
 import com.jme3.renderer.RendererException;
 import com.jme3.renderer.opengl.GL;
 import com.jme3.renderer.opengl.GL2;
@@ -9,7 +9,7 @@ import com.jme3.util.BufferUtils;
 import org.lwjgl.opengl.*;
 
 import java.nio.*;
-
+//All The File
 public final class LwjglGL implements GL, GL2, GL3, GL4 {
 
     IntBuffer tmpBuff = BufferUtils.createIntBuffer(1);
